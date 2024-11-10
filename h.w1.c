@@ -1,11 +1,11 @@
 #include <stdio.h>
-#define n 4
+#define n 5
 int calcDiagonalSums(int size, int matrix[size][size]);
 int isMagicSquare(int size , int matrix[size][size]);
 void main(void) {
 
 
-    int arr[n][n]={{1,5,2,1}, {2,1,1,0}, {0,1,1,2}, {1,2,0,1}};
+    int arr[n][n]={{17,24,1,8,15},{23,5,7,14,16},{4,6,13,20,22},{10,12,19,21,3},{11,18,25,2,9}};
    printf("%d",isMagicSquare(n,arr));
 
 
